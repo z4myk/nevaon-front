@@ -1,0 +1,157 @@
+{
+  "escritorios_virtuales": [
+    {
+      "nombre": "Basic",
+      "vCPU": 4,
+      "RAM": "4 GB DDR5",
+      "almacenamiento": "100 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "limite_usuarios": 3,
+      "link": "#"
+    },
+    {
+      "nombre": "Performance",
+      "vCPU": 4,
+      "RAM": "8 GB DDR5",
+      "almacenamiento": "150 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "limite_usuarios": 6,
+      "link": "#"
+    },
+    {
+      "nombre": "Performance +",
+      "vCPU": 8,
+      "RAM": "16 GB DDR5",
+      "almacenamiento": "200 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "limite_usuarios": 10,
+      "link": "#"
+    }
+  ],
+  "vps_basic": [
+    {
+      "nombre": "CLOUD VPS 1",
+      "vCPU": 4,
+      "RAM": "4 GB DDR5",
+      "almacenamiento": "50 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "link": "#"
+    },
+    {
+      "nombre": "CLOUD VPS 2",
+      "vCPU": 8,
+      "RAM": "8 GB DDR5",
+      "almacenamiento": "200 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "link": "#"
+    },
+    {
+      "nombre": "CLOUD VPS 3",
+      "vCPU": 16,
+      "RAM": "16 GB DDR5",
+      "almacenamiento": "300 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "link": "#"
+    }
+  ],
+  "vps_performance_ryzen_9_7900": [
+    {
+      "nombre": "CLOUD VPS 1",
+      "vCPU": 4,
+      "RAM": "4 GB DDR5",
+      "almacenamiento": "50 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "link": "#"
+    },
+    {
+      "nombre": "CLOUD VPS 2",
+      "vCPU": 8,
+      "RAM": "8 GB DDR5",
+      "almacenamiento": "200 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "link": "#"
+    },
+    {
+      "nombre": "CLOUD VPS 3",
+      "vCPU": 16,
+      "RAM": "16 GB DDR5",
+      "almacenamiento": "300 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "link": "#"
+    }
+  ],
+  "vps_performance_plus_ryzen_9_9900X": [
+    {
+      "nombre": "CLOUD VPS 1",
+      "vCPU": 4,
+      "RAM": "4 GB DDR5",
+      "almacenamiento": "100 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "link": "#"
+    },
+    {
+      "nombre": "CLOUD VPS 2",
+      "vCPU": 8,
+      "RAM": "8 GB DDR5",
+      "almacenamiento": "200 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "link": "#"
+    },
+    {
+      "nombre": "CLOUD VPS 3",
+      "vCPU": 16,
+      "RAM": "16 GB DDR5",
+      "almacenamiento": "300 GB NVMe",
+      "bandwidth": "1 Gbps",
+      "trafico": "32 GB",
+      "DDoS_protection": true,
+      "link": "#"
+    }
+  ],
+  "hosting_web": [
+    {
+      "nombre": "Basic",
+      "sitios_a_alojar": 6,
+      "almacenamiento": "50 GB",
+      "registro_dominio_gratis": true,
+      "cuentas_correo": 150,
+      "link": "#"
+    },
+    {
+      "nombre": "Performance",
+      "sitios_a_alojar": 20,
+      "almacenamiento": "50 GB",
+      "registro_dominio_gratis": true,
+      "cuentas_correo": "ilimitadas",
+      "link": "#"
+    },
+    {
+      "nombre": "Performance +",
+      "sitios_a_alojar": 40,
+      "almacenamiento": "100 GB",
+      "registro_dominio_gratis": true,
+      "cuentas_correo": "ilimitadas",
+      "link": "#"
+    }
+  ]
+}
