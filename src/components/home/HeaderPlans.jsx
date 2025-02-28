@@ -21,7 +21,7 @@ export const HeaderPlans = () => {
         caracter10: "Certificado SSL gratis ❌",
         caracter11: "Hardware premium ❌",
         caracter12: "Soporte prioritario ❌",
-        link: "#"
+        link: "https://billing.nevaon.com/index.php?rp=/store/hosting-web/hosting-web-basic"
     },
     {
         name: "Performance",
@@ -39,7 +39,7 @@ export const HeaderPlans = () => {
         caracter10: "Certificado SSL gratis",
         caracter11: "Soporte prioritario",
         caracter12: "Hardware premium ❌",
-        link: "#"
+        link: "https://billing.nevaon.com/index.php?rp=/store/hosting-web/hosting-web-performance"
     },
     {
         name: "Performance +",
@@ -57,7 +57,7 @@ export const HeaderPlans = () => {
         caracter10: "Certificado SSL gratis",
         caracter11: "Soporte prioritario",
         caracter12: "Hardware premium",
-        link: "#"
+        link: "https://billing.nevaon.com/index.php?rp=/store/hosting-web/hosting-web-performance-1"
     }
 ];
 
@@ -80,7 +80,7 @@ export const HeaderPlans = () => {
       </div>
 
         <h2 className="text-center mt-5">Conoce las mejores soluciones para tu proyecto online</h2>
-      <div className="cards-container mb-5 pb-5">
+      <div className="cards-container d-flex flex-wrap justify-content-center mb-5 pb-5">
             {hostingPlans.map((plan, index) => (
                 <div className="card" key={index}>
                     <h3>{plan.name}</h3>
@@ -90,7 +90,7 @@ export const HeaderPlans = () => {
                         <span className="per-month"><b>/mes</b></span>
                     </p>
                     <p className="annual-price  small">{plan.annualPrice} /ANUAL</p>
-                    <a href={plan.link} className="btn buttonSelect mb-4">Seleccionar <i class="fi fi-rr-arrow-small-right"></i></a>
+                    <a href={plan.link} target="_blank" className="btn buttonSelect mb-4">Seleccionar <i class="fi fi-rr-arrow-small-right"></i></a>
                     <ul>
                         {[...Array(12).keys()].map(i => (
                             <li key={i} className="parrafo"><i className="fi fi-rr-badge-check text-success"></i> {plan[`caracter${i+1}`]}</li>

@@ -18,7 +18,7 @@ export const Information = () => {
                     <img src={nube} alt="Escritorio Virtual" className="img-fluid rounded shadow-sm w-75" />
                 </div>
                 <div className="col-md-6">
-                    <h3 className="text-primary">¿Qué es un Escritorio Virtual?</h3>
+                    <h3 className="text-primary mt-3">¿Qué es un Escritorio Virtual?</h3>
                     <p className="text-muted">
                         Un entorno de trabajo accesible desde cualquier dispositivo con internet. Brinda seguridad, flexibilidad y alto rendimiento sin depender de hardware físico.
                     </p>
@@ -39,7 +39,7 @@ export const Information = () => {
                     <img src={webhost} alt="Hosting Web" className="img-fluid rounded shadow-sm" />
                 </div>
                 <div className="col-md-6 order-md-1">
-                    <h3 className="text-primary">¿Qué es un Hosting Web?</h3>
+                    <h3 className="text-primary mt-3">¿Qué es un Hosting Web?</h3>
                     <p className="text-muted">
                         Es el servicio que permite almacenar y publicar tu sitio web en internet, asegurando estabilidad, rendimiento y seguridad.
                     </p>

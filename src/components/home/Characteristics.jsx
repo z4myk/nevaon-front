@@ -14,7 +14,7 @@ export const Characteristics = () => {
         <h2 className="mb-5">¿Por qué elegir nuestro hosting?</h2>
         
 
-        <div className="d-flex justify-content-between container ">
+        <div className="d-flex flex-column flex-md-row justify-content-between container ">
   <div className="feature-card text-center">
     <img src={support} className="w-50 mb-3" />
     <h5 className="text-primary">Soporte en español</h5>
