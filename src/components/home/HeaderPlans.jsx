@@ -66,14 +66,14 @@ export const HeaderPlans = () => {
       <div className="container text-center">
         <h2 className="mt-5 text-center">Confianza y calidad en cada solución</h2>
         <hr />
-        <p>
+        <h4 className="">
           En Nevaon, nuestro servicio premium es sinónimo de excelencia, respaldado por la <b>confianza</b> y <b>satisfacción</b> de nuestros clientes.
-        </p>
+        </h4>
       </div>
       <div className="text-center mt-5">
-        <img src={google} className="w-25" alt="Google logo" /> <br />
+        <img src={google} className="imageGoogle " alt="Google logo" /> <br />
         <div className="d-flex justify-content-center mt-2">
-        <span className="text-secondary textGoogle"  ><b><u>Valorados con 4.4</u></b></span>
+        <span className="text-secondary textGoogle parrafo"  ><b><u>Valorados con 4.4</u></b></span>
         <img src={stars} className="estrellas" alt="Google logo " />
         </div>
         

@@ -22,7 +22,7 @@ export const Navbar = () => {
     <i class="fi fi-br-menu-burger p-1"></i>
   </button>
   <a className="text-decoration-none " href="/">
-  <img src={nevaonnegro} className="brand-logo w-50" alt="Logo" /></a>
+  <img src={nevaonnegro} className="brand-logo" alt="Logo" /></a>
 
 
   <div

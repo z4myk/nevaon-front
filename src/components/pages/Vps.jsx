@@ -33,26 +33,58 @@ export const Vps = () => {
 
   return (
     <>
-      <div className="container my-5">
-        <div className="row align-items-center">
-          <div className="col-md-8 col-sm-12">
-            <h2 className="fw-bold">Servidores VPS de Alto Rendimiento</h2>
-            <p className="text-primary fs-5">🚀 Potencia, Seguridad y Flexibilidad para tus proyectos</p>
-            <p>En <strong>Nevaon</strong> ofrecemos servidores VPS diseñados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
-            <ul className="list-unstyled">
-              <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Almacenamiento NVMe ultrarrápido</strong> para máxima velocidad</li>
-              <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Conectividad de 1 Gbps</strong> para una experiencia sin interrupciones</li>
-              <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Protección DDoS</strong> incluida en todos los planes</li>
-              <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Infraestructura escalable</strong> para cualquier necesidad</li>
-              <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Rendimiento optimizado</strong> con procesadores de última generación</li>
-            </ul>
-            <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros servidores VPS.</p>
-          </div>
-          <div className="col-sm-12 col-md-4">
-            <img src={vpss} className="w-100  img-cortada"/>
-          </div>
+    <div className="container my-5"> 
+  <div className="row align-items-center">
+    <div className="col-md-8 col-sm-12">
+      <h2 className="fw-bold text-center">Servidores VPS de Alto Rendimiento</h2>
+
+     
+      <p className="d-block d-md-none">
+        <a className="btn btn-primary w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Ver más
+        </a>
+      </p>
+
+    
+      <div className="d-none d-md-block">
+        <div className=" w-100">
+          <p className="text-primary fs-5">🚀 Potencia, Seguridad y Flexibilidad para tus proyectos</p>
+          <p>En <strong>Nevaon</strong> ofrecemos servidores VPS diseñados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
+          <ul className="list-unstyled">
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Almacenamiento NVMe ultrarrápido</strong> para máxima velocidad</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Conectividad de 1 Gbps</strong> para una experiencia sin interrupciones</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Protección DDoS</strong> incluida en todos los planes</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Infraestructura escalable</strong> para cualquier necesidad</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Rendimiento optimizado</strong> con procesadores de última generación</li>
+          </ul>
+          <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros servidores VPS.</p>
         </div>
       </div>
+
+     
+      <div className="collapse" id="collapseExample">
+        <div className="card card-body w-100">
+          <p className="text-primary fs-5">🚀 Potencia, Seguridad y Flexibilidad para tus proyectos</p>
+          <p>En <strong>Nevaon</strong> ofrecemos servidores VPS diseñados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
+          <ul className="list-unstyled">
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Almacenamiento NVMe ultrarrápido</strong> para máxima velocidad</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Conectividad de 1 Gbps</strong> para una experiencia sin interrupciones</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Protección DDoS</strong> incluida en todos los planes</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Infraestructura escalable</strong> para cualquier necesidad</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Rendimiento optimizado</strong> con procesadores de última generación</li>
+          </ul>
+          <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros servidores VPS.</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="col-sm-12 col-md-4">
+      <img src={vpss} className="w-100 img-cortada"/>
+    </div>
+  </div>
+</div>
+
+
       
       <div className="d-flex justify-content-center mb-4 flex-wrap border p-3 container rounded container-category shadow-lg   ">
         {categories.map((category, index) => (
@@ -72,7 +104,7 @@ export const Vps = () => {
             <h3>{plan.nombre}</h3>
             <p className="price-container">
               <span className="price">${plan.precio_mensual}</span>
-              <span className="small-price"><b>00USD</b></span>
+              <span className="small-price"><b>USD</b></span>
               <span className="per-month"><b>/mes</b></span>
             </p>
             <p className="annual-price small">${plan.precio_anual} /ANUAL</p>
@@ -86,6 +118,7 @@ export const Vps = () => {
               {plan.DDoS_protection && (
                 <li className=" parrafo"><i className="fi fi-rr-badge-check text-success"></i> Protección DDoS incluida</li>
               )}
+              <li className=" mt-3 small text-secondary parrafo">*No incluye impuestos</li>
             </ul>
           </div>
         ))}

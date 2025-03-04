@@ -248,7 +248,7 @@ html::-webkit-scrollbar-thumb{
 .small-price {
     font-size: 1rem;
     vertical-align: top;
-    margin-left: 2px;
+    margin-left: 20px;
 }
 
 .per-month {
@@ -503,7 +503,7 @@ li{
 }
 
 .estrellas{
-  width: 170px !important;
+  width: 100px !important;
 }
 
 .textGoogle{
@@ -559,5 +559,29 @@ li{
 .iconFooterGrande{
   width: 80px;
 }
+
+.brand-logo{
+  width: 100px;
+}
+
+
+.imageGoogle{
+  width: 230px;
+}
+
+
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+/* Ocultar el botón en pantallas grandes */
+@media (min-width: 768px) {
+  .btn-ver-mas {
+    display: none; /* Ocultar el botón en pantallas grandes */
+  }
+}
+
 
 

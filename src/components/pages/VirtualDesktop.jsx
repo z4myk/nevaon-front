@@ -86,6 +86,7 @@ export const VirtualDesktop = () => {
                             {plan.DDoS_protection && (
                                 <li className="parrafo"><i className="fi fi-rr-badge-check text-success"></i> Protección DDoS incluida</li>
                             )}
+                            <li className=" mt-3 small text-secondary parrafo">*No incluye impuestos</li>
                         </ul>
                        
                     </div>

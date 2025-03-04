@@ -148,6 +148,7 @@ export const WebHosting = () => {
                         {[...Array(12).keys()].map(i => (
                             <li key={i} className="parrafo"><i className="fi fi-rr-badge-check text-success "></i> {plan[`caracter${i+1}`]}</li>
                         ))}
+                        <li className=" mt-3 small text-secondary parrafo">*No incluye impuestos</li>
                     </ul>
                    
                 </div>
