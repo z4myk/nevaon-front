@@ -114,19 +114,49 @@ export const WebHosting = () => {
         <>
         <div className="container my-5">
             <div className="row align-items-center">
-                <div className="col-md-8 col-sm-12">
-                    <h2 className="fw-bold">Hosting Web de Alto Rendimiento</h2>
-                    <p className="text-primary fs-5">🚀 Rápido, Seguro y Confiable para todos tus proyectos web</p>
-                    <p>En <strong>Nevaon</strong> ofrecemos soluciones de hosting web optimizadas para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
-                    <ul className="list-unstyled">
-                        <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Alojamiento para múltiples sitios web</strong> sin limitaciones innecesarias</li>
-                        <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Espacio en disco NVMe ultrarrápido</strong> para tiempos de carga reducidos</li>
-                        <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Dominio gratis incluido</strong> para que empieces sin costos adicionales</li>
-                        <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Cuentas de correo personalizadas</strong> para dar una imagen profesional</li>
-                        <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Infraestructura segura y escalable</strong> para que tu sitio crezca sin preocupaciones</li>
-                    </ul>
-                    <p className="fw-bold text-dark">💡 Escoge el plan perfecto y lleva tu presencia en línea al siguiente nivel.</p>
-                </div>
+            <div className="col-md-8 col-sm-12">
+      <h2 className="fw-bold text-center">Hosting Web de Alto Rendimiento</h2>
+
+     
+      <p className="d-block d-md-none">
+        <a className="btn btn-primary w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Ver más <i class="fi fi-br-angle-double-small-down"></i>
+        </a>
+      </p>
+
+    
+      <div className="d-none d-md-block">
+        <div className=" w-100">
+          <p className="text-primary fs-5">🚀 Rápido, Seguro y Confiable para todos tus proyectos web</p>
+          <p>En <strong>Nevaon</strong> ofrecemos soluciones de hosting web optimizadas para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
+          <ul className="list-unstyled">
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Rendimiento optimo: </strong> Experimenta tiempos de carga ultrarrápidos y una operatividad fluida que garantiza una experiencia de usuario superior.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Gestión intuitiva:</strong> Administra tu sitio web de forma sencilla mediante un panel de control amigable y herramientas integradas.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Correos corporativos incluidos:</strong> Gestiona y aloja diversos sitios en una única solución, facilitando la expansión de tu presencia online.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo:</strong> Disfruta de cuentas de correo profesional integradas para fortalecer la comunicación y la imagen de tu empresa.</li>
+
+          </ul>
+          <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros hosting WEB.</p>
+        </div>
+      </div>
+
+     
+      <div className="collapse" id="collapseExample">
+        <div className="card card-body w-100">
+        <p className="text-primary fs-5">🚀 Rápido, Seguro y Confiable para todos tus proyectos web</p>
+          <p>En <strong>Nevaon</strong> ofrecemos soluciones de hosting web optimizadas para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
+          <ul className="list-unstyled">
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Rendimiento optimo:</strong> Experimenta tiempos de carga ultrarrápidos y una operatividad fluida que garantiza una experiencia de usuario superior.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Gestión intuitiva:</strong> Administra tu sitio web de forma sencilla mediante un panel de control amigable y herramientas integradas.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Correos corporativos incluidos:</strong> Gestiona y aloja diversos sitios en una única solución, facilitando la expansión de tu presencia online.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo:</strong> Disfruta de cuentas de correo profesional integradas para fortalecer la comunicación y la imagen de tu empresa.</li>
+
+          </ul>
+          <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros hosting WEB.</p>
+        </div>
+      </div>
+    </div>
+
                 <div className="col-md-4 col-sm-12 text-center">
                     <img src={webhosting} alt="Web Hosting" className="w-100"/>
                 </div>
@@ -139,17 +169,20 @@ export const WebHosting = () => {
                     <h3>{plan.name}</h3>
                     <p className="price-container">
                         <span className="price">{plan.price}</span>
-                        <span className="small-price"><b>00USD</b></span>
+                        <span className="small-price"><b>USD</b></span>
                         <span className="per-month"><b>/mes</b></span>
                     </p>
                     <p className="annual-price rounded small">{plan.annualPrice} /ANUAL</p>
                     <a href={plan.link} target="_blank" className="btn buttonSelect mb-4">Seleccionar <i class="fi fi-rr-arrow-small-right"></i></a>
-                    <ul>
-                        {[...Array(12).keys()].map(i => (
-                            <li key={i} className="parrafo"><i className="fi fi-rr-badge-check text-success "></i> {plan[`caracter${i+1}`]}</li>
-                        ))}
-                        <li className=" mt-3 small text-secondary parrafo">*No incluye impuestos</li>
-                    </ul>
+                    <ul className="list-unstyled">
+  {[...Array(12).keys()].map(i => (
+    <li key={i} className="d-flex align-items-center letrasLi">
+      <i className="fi fi-rr-badge-check text-success me-2"></i> {plan[`caracter${i+1}`]}
+    </li>
+  ))}
+  <li className="mt-3 small text-secondary">*No incluye impuestos</li>
+</ul>
+
                    
                 </div>
             ))}

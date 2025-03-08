@@ -41,7 +41,7 @@ export const Vps = () => {
      
       <p className="d-block d-md-none">
         <a className="btn btn-primary w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Ver más
+          Ver más <i class="fi fi-br-angle-double-small-down"></i>
         </a>
       </p>
 
@@ -51,11 +51,11 @@ export const Vps = () => {
           <p className="text-primary fs-5">🚀 Potencia, Seguridad y Flexibilidad para tus proyectos</p>
           <p>En <strong>Nevaon</strong> ofrecemos servidores VPS diseñados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Almacenamiento NVMe ultrarrápido</strong> para máxima velocidad</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Conectividad de 1 Gbps</strong> para una experiencia sin interrupciones</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Protección DDoS</strong> incluida en todos los planes</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Infraestructura escalable</strong> para cualquier necesidad</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Rendimiento optimizado</strong> con procesadores de última generación</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Configuración a medida</strong> Personaliza tu VPS según las necesidades específicas de tu proyecto, optimizando el rendimiento y la operatividad.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Conectividad de 1 Gbps</strong> Amplía o reduce la capacidad de procesamiento, memoria y almacenamiento de forma flexible, adaptándose al crecimiento de tu empresa.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Control total y acceso root</strong> Gestiona tu servidor con privilegios de administrador, permitiendo la instalación y personalización de cualquier software o herramienta que requieras.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo</strong> Garantiza la protección de tus datos con avanzadas medidas de seguridad y supervisión 24/7, asegurando alta disponibilidad y estabilidad.</li>
+
           </ul>
           <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros servidores VPS.</p>
         </div>
@@ -67,11 +67,11 @@ export const Vps = () => {
           <p className="text-primary fs-5">🚀 Potencia, Seguridad y Flexibilidad para tus proyectos</p>
           <p>En <strong>Nevaon</strong> ofrecemos servidores VPS diseñados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Almacenamiento NVMe ultrarrápido</strong> para máxima velocidad</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Conectividad de 1 Gbps</strong> para una experiencia sin interrupciones</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Protección DDoS</strong> incluida en todos los planes</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Infraestructura escalable</strong> para cualquier necesidad</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Rendimiento optimizado</strong> con procesadores de última generación</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Configuración a medida</strong> Personaliza tu VPS según las necesidades específicas de tu proyecto, optimizando el rendimiento y la operatividad.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Conectividad de 1 Gbps</strong> Amplía o reduce la capacidad de procesamiento, memoria y almacenamiento de forma flexible, adaptándose al crecimiento de tu empresa.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Control total y acceso root</strong> Gestiona tu servidor con privilegios de administrador, permitiendo la instalación y personalización de cualquier software o herramienta que requieras.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo</strong> Garantiza la protección de tus datos con avanzadas medidas de seguridad y supervisión 24/7, asegurando alta disponibilidad y estabilidad.</li>
+
           </ul>
           <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros servidores VPS.</p>
         </div>
@@ -109,17 +109,30 @@ export const Vps = () => {
             </p>
             <p className="annual-price small">${plan.precio_anual} /ANUAL</p>
                 <a href={plan.link} target="_blank" className="btn btn-primary mb-4 buttonSelect ">Seleccionar <i class="fi fi-rr-arrow-small-right"></i></a>
-            <ul >
-              <li className=" parrafo"><i className="fi fi-rr-badge-check text-success "></i> {plan.vCPU} vCPU</li>
-              <li className=" parrafo"><i className="fi fi-rr-badge-check text-success"></i> {plan.RAM} RAM</li>
-              <li className=" parrafo"><i className="fi fi-rr-badge-check text-success"></i> {plan.almacenamiento} NVMe</li>
-              <li className=" parrafo"><i className="fi fi-rr-badge-check text-success"></i> {plan.bandwidth} de conexión</li>
-              <li className=" parrafo"><i className="fi fi-rr-badge-check text-success"></i> {plan.trafico} de tráfico mensual</li>
-              {plan.DDoS_protection && (
-                <li className=" parrafo"><i className="fi fi-rr-badge-check text-success"></i> Protección DDoS incluida</li>
-              )}
-              <li className=" mt-3 small text-secondary parrafo">*No incluye impuestos</li>
-            </ul>
+                <ul className="list-unstyled">
+  <li className="d-flex align-items-center letrasLi">
+    <i className="fi fi-rr-badge-check text-success "></i> {plan.vCPU} vCPU
+  </li>
+  <li className="d-flex align-items-center letrasLi">
+    <i className="fi fi-rr-badge-check text-success"></i> {plan.RAM} RAM
+  </li>
+  <li className="d-flex align-items-center letrasLi">
+    <i className="fi fi-rr-badge-check text-success"></i> {plan.almacenamiento} NVMe
+  </li>
+  <li className="d-flex align-items-center letrasLi">
+    <i className="fi fi-rr-badge-check text-success "></i> {plan.bandwidth} de conexión
+  </li>
+  <li className="d-flex align-items-center letrasLi ">
+    <i className="fi fi-rr-badge-check text-success"></i> {plan.trafico} de tráfico mensual
+  </li>
+  {plan.DDoS_protection && (
+    <li className="d-flex align-items-center letrasLi ">
+      <i className="fi fi-rr-badge-check text-success "></i> Protección DDoS incluida
+    </li>
+  )}
+  <li className="mt-3 small text-secondary">*No incluye impuestos</li>
+</ul>
+
           </div>
         ))}
       </div>

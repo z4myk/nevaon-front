@@ -86,16 +86,19 @@ export const HeaderPlans = () => {
                     <h3>{plan.name}</h3>
                     <p className="price-container">
                         <span className="price">{plan.price}</span>
-                        <span className="small-price"><b>00USD</b></span>
+                        <span className="small-price"><b>USD</b></span>
                         <span className="per-month"><b>/mes</b></span>
                     </p>
                     <p className="annual-price  small">{plan.annualPrice} /ANUAL</p>
                     <a href={plan.link} target="_blank" className="btn buttonSelect mb-4">Seleccionar <i class="fi fi-rr-arrow-small-right"></i></a>
-                    <ul>
-                        {[...Array(12).keys()].map(i => (
-                            <li key={i} className="parrafo"><i className="fi fi-rr-badge-check text-success"></i> {plan[`caracter${i+1}`]}</li>
-                        ))}
-                    </ul>
+                    <ul className="list-unstyled">
+  {[...Array(12).keys()].map(i => (
+    <li key={i} className="d-flex align-items-center letrasLi">
+      <i className="fi fi-rr-badge-check text-success me-2"></i> {plan[`caracter${i + 1}`]}
+    </li>
+  ))}
+</ul>
+
                    
                 </div>
             ))}
