@@ -48,7 +48,7 @@ export const Vps = () => {
     
       <div className="d-none d-md-block">
         <div className=" w-100">
-          <p className="text-primary fs-5">🚀 Potencia, Seguridad y Flexibilidad para tus proyectos</p>
+          
           <p>En <strong>Nevaon</strong> ofrecemos servidores VPS diseñados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Configuración a medida</strong> Personaliza tu VPS según las necesidades específicas de tu proyecto, optimizando el rendimiento y la operatividad.</li>
@@ -64,7 +64,7 @@ export const Vps = () => {
      
       <div className="collapse" id="collapseExample">
         <div className="card card-body w-100">
-          <p className="text-primary fs-5">🚀 Potencia, Seguridad y Flexibilidad para tus proyectos</p>
+        
           <p>En <strong>Nevaon</strong> ofrecemos servidores VPS diseñados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Configuración a medida</strong> Personaliza tu VPS según las necesidades específicas de tu proyecto, optimizando el rendimiento y la operatividad.</li>

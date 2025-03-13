@@ -59,7 +59,7 @@ export const VirtualDesktop = () => {
     
       <div className="d-none d-md-block">
         <div className=" w-100">
-          <p className="text-primary fs-5">💻 Potencia, Seguridad y Flexibilidad para tu trabajo remoto</p>
+          
           <p>En <strong>Nevaon</strong> ofrecemos soluciones de escritorios virtuales optimizados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Configuración personalizada: </strong>Adapta y optimiza el entorno virtual según las necesidades específicas de tu negocio.
@@ -77,12 +77,12 @@ export const VirtualDesktop = () => {
      
       <div className="collapse" id="collapseExample">
         <div className="card card-body w-100">
-        <p className="text-primary fs-5">💻 Potencia, Seguridad y Flexibilidad para tu trabajo remoto</p>
+       
           <p>En <strong>Nevaon</strong> ofrecemos soluciones de escritorios virtuales optimizados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Configuración personalizada: </strong>Adapta y optimiza el entorno virtual según las necesidades específicas de tu negocio.
 </li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Licencias compartidas:</strong>Permite el acceso simultáneo a múltiples usuarios sin incurrir en gastos adicionales por licencias innecesarias.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Licencias compartidas:</strong> Permite el acceso simultáneo a múltiples usuarios sin incurrir en gastos adicionales por licencias innecesarias.</li>
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Soporte multiusuario escalable:</strong> Gestiona y aloja diversos sitios en una única solución, facilitando la expansión de tu presencia online.</li>
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Integración de software de terceros: </strong> Instala y utiliza aplicaciones y herramientas adicionales, replicando la experiencia de uso de un PC personal.
 </li>

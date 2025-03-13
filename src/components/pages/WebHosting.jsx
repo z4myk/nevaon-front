@@ -127,7 +127,7 @@ export const WebHosting = () => {
     
       <div className="d-none d-md-block">
         <div className=" w-100">
-          <p className="text-primary fs-5">🚀 Rápido, Seguro y Confiable para todos tus proyectos web</p>
+          
           <p>En <strong>Nevaon</strong> ofrecemos soluciones de hosting web optimizadas para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Rendimiento optimo: </strong> Experimenta tiempos de carga ultrarrápidos y una operatividad fluida que garantiza una experiencia de usuario superior.</li>
@@ -143,7 +143,7 @@ export const WebHosting = () => {
      
       <div className="collapse" id="collapseExample">
         <div className="card card-body w-100">
-        <p className="text-primary fs-5">🚀 Rápido, Seguro y Confiable para todos tus proyectos web</p>
+        
           <p>En <strong>Nevaon</strong> ofrecemos soluciones de hosting web optimizadas para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Rendimiento optimo:</strong> Experimenta tiempos de carga ultrarrápidos y una operatividad fluida que garantiza una experiencia de usuario superior.</li>
