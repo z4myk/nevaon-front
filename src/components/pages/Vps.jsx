@@ -41,7 +41,7 @@ export const Vps = () => {
      
       <p className="d-block d-md-none">
         <a className="btn btn-primary w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Ver más <i class="fi fi-br-angle-double-small-down"></i>
+          Ver más 
         </a>
       </p>
 
@@ -52,7 +52,7 @@ export const Vps = () => {
           <p>En <strong>Nevaon</strong> ofrecemos servidores VPS diseñados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Configuración a medida</strong> Personaliza tu VPS según las necesidades específicas de tu proyecto, optimizando el rendimiento y la operatividad.</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Conectividad de 1 Gbps</strong> Amplía o reduce la capacidad de procesamiento, memoria y almacenamiento de forma flexible, adaptándose al crecimiento de tu empresa.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Recursos escalables</strong> Amplía o reduce la capacidad de procesamiento, memoria y almacenamiento de forma flexible, adaptándose al crecimiento de tu empresa.</li>
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Control total y acceso root</strong> Gestiona tu servidor con privilegios de administrador, permitiendo la instalación y personalización de cualquier software o herramienta que requieras.</li>
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo</strong> Garantiza la protección de tus datos con avanzadas medidas de seguridad y supervisión 24/7, asegurando alta disponibilidad y estabilidad.</li>
 
@@ -68,7 +68,7 @@ export const Vps = () => {
           <p>En <strong>Nevaon</strong> ofrecemos servidores VPS diseñados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Configuración a medida</strong> Personaliza tu VPS según las necesidades específicas de tu proyecto, optimizando el rendimiento y la operatividad.</li>
-            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Conectividad de 1 Gbps</strong> Amplía o reduce la capacidad de procesamiento, memoria y almacenamiento de forma flexible, adaptándose al crecimiento de tu empresa.</li>
+            <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Recursos escalables</strong> Amplía o reduce la capacidad de procesamiento, memoria y almacenamiento de forma flexible, adaptándose al crecimiento de tu empresa.</li>
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Control total y acceso root</strong> Gestiona tu servidor con privilegios de administrador, permitiendo la instalación y personalización de cualquier software o herramienta que requieras.</li>
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo</strong> Garantiza la protección de tus datos con avanzadas medidas de seguridad y supervisión 24/7, asegurando alta disponibilidad y estabilidad.</li>
 

@@ -52,7 +52,7 @@ export const VirtualDesktop = () => {
      
       <p className="d-block d-md-none">
         <a className="btn btn-primary w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Ver más <i class="fi fi-br-angle-double-small-down"></i>
+          Ver más 
         </a>
       </p>
 
@@ -78,7 +78,7 @@ export const VirtualDesktop = () => {
       <div className="collapse" id="collapseExample">
         <div className="card card-body w-100">
         <p className="text-primary fs-5">💻 Potencia, Seguridad y Flexibilidad para tu trabajo remoto</p>
-          <p>En <strong>Nevaon</strong>ofrecemos soluciones de escritorios virtuales optimizados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
+          <p>En <strong>Nevaon</strong> ofrecemos soluciones de escritorios virtuales optimizados para garantizar el mejor rendimiento y estabilidad. Con nuestros planes obtienes:</p>
           <ul className="list-unstyled">
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Configuración personalizada: </strong>Adapta y optimiza el entorno virtual según las necesidades específicas de tu negocio.
 </li>

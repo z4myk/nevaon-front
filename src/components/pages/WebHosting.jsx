@@ -120,7 +120,7 @@ export const WebHosting = () => {
      
       <p className="d-block d-md-none">
         <a className="btn btn-primary w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Ver más <i class="fi fi-br-angle-double-small-down"></i>
+          Ver más
         </a>
       </p>
 
