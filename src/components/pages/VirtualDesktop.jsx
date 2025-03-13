@@ -70,7 +70,7 @@ export const VirtualDesktop = () => {
 </li>
 
           </ul>
-          <p className="fw-bold text-dark">🚀 Elige el plan ideal y mejora tu productividad con un escritorio virtual a la medida.</p>
+          <p className="fw-bold text-dark">Elige el plan ideal y mejora tu productividad con un escritorio virtual a la medida.</p>
         </div>
       </div>
 
@@ -88,7 +88,7 @@ export const VirtualDesktop = () => {
 </li>
 
           </ul>
-          <p className="fw-bold text-dark">🚀 Elige el plan ideal y mejora tu productividad con un escritorio virtual a la medida.</p>
+          <p className="fw-bold text-dark">Elige el plan ideal y mejora tu productividad con un escritorio virtual a la medida.</p>
         </div>
       </div>
     </div>

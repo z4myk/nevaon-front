@@ -136,7 +136,7 @@ export const WebHosting = () => {
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo:</strong> Disfruta de cuentas de correo profesional integradas para fortalecer la comunicación y la imagen de tu empresa.</li>
 
           </ul>
-          <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros hosting WEB.</p>
+          <p className="fw-bold text-dark">Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros hosting WEB.</p>
         </div>
       </div>
 
@@ -152,7 +152,7 @@ export const WebHosting = () => {
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo:</strong> Disfruta de cuentas de correo profesional integradas para fortalecer la comunicación y la imagen de tu empresa.</li>
 
           </ul>
-          <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros hosting WEB.</p>
+          <p className="fw-bold text-dark">Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros hosting WEB.</p>
         </div>
       </div>
     </div>

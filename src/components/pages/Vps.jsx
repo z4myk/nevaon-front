@@ -57,7 +57,7 @@ export const Vps = () => {
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo</strong> Garantiza la protección de tus datos con avanzadas medidas de seguridad y supervisión 24/7, asegurando alta disponibilidad y estabilidad.</li>
 
           </ul>
-          <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros servidores VPS.</p>
+          <p className="fw-bold text-dark">Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros servidores VPS.</p>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ export const Vps = () => {
             <li><i className="fi fi-rr-badge-check text-success"></i> <strong>Seguridad robusta y monitoreo Continuo</strong> Garantiza la protección de tus datos con avanzadas medidas de seguridad y supervisión 24/7, asegurando alta disponibilidad y estabilidad.</li>
 
           </ul>
-          <p className="fw-bold text-dark">⚡ Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros servidores VPS.</p>
+          <p className="fw-bold text-dark">Elige el plan ideal y lleva tu proyecto al siguiente nivel con nuestros servidores VPS.</p>
         </div>
       </div>
     </div>
