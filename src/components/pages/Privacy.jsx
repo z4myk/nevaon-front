@@ -5,7 +5,7 @@ export const Privacy = () => {
         <div>
             <div class="container mt-5 pb-5">
 
-  <h3 class="text-primary text-center mb-4">Política de Privacidad de Nevaon</h3>
+  <h3 class="text-center mb-4">Política de Privacidad de Nevaon</h3>
   <p><strong>(Vemox Soluciones Tecnologicas Empresariales S.A. de C.V.)</strong></p>
   <p><em>Última actualización: 01/02/2024</em></p>
 
