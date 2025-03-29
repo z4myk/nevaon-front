@@ -15,11 +15,11 @@ export const Footer = () => {
                 <div class="col-sm-12 col-md-4">
                     <h5 class="text-primary">Legal</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-light text-decoration-none small link-hover">Aviso legal</a></li>
-                        <Link to="/privacy">
-                        <li><a href="#" class="text-light text-decoration-none small link-hover">Política de privacidad</a></li>
-                        </Link>
-                        <li><a href="#" class="text-light text-decoration-none small link-hover">Términos y condiciones</a></li>
+                        <li><a href="/legal-notice" class="text-light text-decoration-none small link-hover">Aviso legal</a></li>
+                        
+                        <li><a href="/privacy" class="text-light text-decoration-none small link-hover">Política de privacidad</a></li>
+                        
+                        <li><a href="/terms-and-conditions" class="text-light text-decoration-none small link-hover">Términos y condiciones</a></li>
                     </ul>
                 </div>
     
@@ -50,7 +50,7 @@ export const Footer = () => {
             <hr class="bg-light" />
     
             <div class="text-center mt-3">
-                <img src={neveaonnegro}  className="mb-3 w-25"/>
+                <img src={neveaonnegro}  className="mb-3 logoNevaon"/>
                 <p class="mb-0 small ">© 2025 Nevaon | Parte de Vemox Soluciones Tecnológicas Empresariales S.A de C.V.</p>
                 <div className="d-flex justify-content-center flex-wrap mt-4 gap-4">
             <div>
