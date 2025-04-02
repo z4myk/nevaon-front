@@ -22,7 +22,7 @@ export const Navbar = () => {
     <i class="fi fi-br-menu-burger p-1"></i>
   </button>
   <a className="text-decoration-none " href="/">
-  <img src={nevaonnegro} className="brand-logo" alt="Logo" /></a>
+  <img src={nevaonnegro} className="brand-logo" alt="Nevaon" /></a>
 
 
   <div
@@ -34,7 +34,7 @@ export const Navbar = () => {
   >
     <div class="offcanvas-header">
       <a className="text-decoration-none " href="/">
-      <h5 class="offcanvas-title" id="offcanvasMenuLabel">  <img src={nevaonnegro} className="brand-logo" alt="Logo" /></h5></a>
+      <h5 class="offcanvas-title" id="offcanvasMenuLabel">  <img src={nevaonnegro} className="brand-logo" alt="Nevaon" /></h5></a>
       <button
         type="button"
         class="btn-close text-reset"
@@ -107,7 +107,7 @@ export const Navbar = () => {
         <form class="d-flex gap-5">
           <div className="mt-3">
             <a href="https://billing.nevaon.com/contact.php" className="text-decoration-none text-dark">
-        <i className="fi fi-rr-user-headset iconsNavbar "></i>
+        <i className="fi fi-rr-user-headset iconsNavbar "><span className="d-none">.</span></i>
             </a>
           </div>
 
@@ -115,7 +115,7 @@ export const Navbar = () => {
 
           <div className="mt-3">
             <a href="https://billing.nevaon.com/cart.php?a=view" className="text-decoration-none text-dark">
-          <i className="fi fi-rr-shopping-cart-add iconsNavbar"></i>
+          <i className="fi fi-rr-shopping-cart-add iconsNavbar"><span className="d-none">.</span></i>
             </a>
           </div>
           {/* <div className="mt-3">

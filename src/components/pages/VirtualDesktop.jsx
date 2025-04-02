@@ -47,7 +47,7 @@ export const VirtualDesktop = () => {
             <div className="container my-5">
                 <div className="row align-items-center">
                 <div className="col-md-8 col-sm-12">
-      <h2 className="fw-bold text-center">Escritorios Virtuales de Alto Rendimiento</h2>
+      <h1 className="fw-bold text-center">Escritorios Virtuales de Alto Rendimiento</h1>
 
      
       <p className="d-block d-md-none">

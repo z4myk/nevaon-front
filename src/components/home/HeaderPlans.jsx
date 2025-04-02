@@ -64,7 +64,7 @@ export const HeaderPlans = () => {
   return (
     <section>
       <div className="container text-center">
-        <h2 className="mt-5 text-center">Confianza y calidad en cada solución</h2>
+        <h1 className="mt-5 text-center">Confianza y calidad en cada solución</h1>
         <hr />
         <h4 className="">
           En Nevaon, nuestro servicio premium es sinónimo de excelencia, respaldado por la <b>confianza</b> y <b>satisfacción</b> de nuestros clientes.

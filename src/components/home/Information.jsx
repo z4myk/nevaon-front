@@ -9,7 +9,7 @@ export const Information = () => {
         <div className="container">
             <h2 className="text-center text-dark mb-3">Todo lo que necesitas saber sobre Tecnología en la Nube</h2>
             <div className="text-center mb-3">
-                <img src={cloud} className="imagenNube" />
+                <img src={cloud} className="imagenNube" alt="Cloud" />
             </div>
     
             {/* Escritorio Virtual */}
