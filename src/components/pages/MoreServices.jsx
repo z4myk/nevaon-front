@@ -116,7 +116,7 @@ export const MoreServices = () => {
  
   
 
-    <img src={chaos} className="logoCliente mx-5 " alt="Chaos" />
+    <img src={chaos} className="logoCliente mx-5 " alt="femsa" />
      
     <img src={zukalogo} className="logoCliente mx-5" alt="Zuka" />
 
@@ -137,9 +137,11 @@ export const MoreServices = () => {
             <h3>¿Tenés una idea en mente o querés llevar tu negocio al próximo nivel?</h3>
             <p><b>Nosotros te ayudamos a hacerlo realidad.</b></p>
             
+    <a href="https://api.whatsapp.com/send/?phone=%2B5217831243833&text&type=phone_number&app_absent=0" target="_blank" className="text-decoration-none">
 <button className="shadow__btn border">
-    CONTACTANOS
+        CONTACTANOS
 </button>
+        </a>
         </div>
 
 </section>
