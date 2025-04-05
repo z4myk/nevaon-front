@@ -20,7 +20,7 @@ export const AppRouter = () => {
               <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/webhosting" element={<WebHosting />} />
-        <Route path="/more-services" element={<MoreServices />} />
+        <Route path="/software" element={<MoreServices />} />
         <Route path="/vps" element={<Vps />} />
         <Route path="/virtual-desktops" element={<VirtualDesktop />} />
         <Route path="/privacy" element={<Privacy />}/>

@@ -94,7 +94,7 @@ export const Navbar = () => {
        
         <ul class="list-group list-group-flush  text-center">
           <li class="list-group-item">
-            <a href="/more-services" class="text-decoration-none">Más Servicios</a>
+            <a href="/software" class="text-decoration-none">Desarrollo Web</a>
           </li>
         </ul>
       </div>
