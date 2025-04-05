@@ -746,3 +746,19 @@ li{
               0 0 50px rgb(0,140,255),
               0 0 100px rgb(0,140,255);
 }
+
+
+/* CSS */
+.logoCliente {
+  width: 250px;
+ 
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+  opacity: 0.8;
+}
+
+.logoCliente:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}

@@ -8,10 +8,13 @@ import gestion from '../../assets/gestion.png'
 import reserva from '../../assets/reserva.png'
 import cursos from '../../assets/cursos.png'
 import tienda from '../../assets/tienda.png'
-import aintechfoto from '../../assets/aintechfoto.png'
+import aintechonline from '../../assets/aintechonline.png'
 import chaos from '../../assets/chaos.png'
 import vemox from '../../assets/vemox.png'
 import goreboosting from '../../assets/goreboosting.png'
+import odoo from '../../assets/odoo.png'
+import zukalogo from '../../assets/zukalogo.png'
+import rappi from '../../assets/rappi.webp'
 export const MoreServices = () => {
     return (
         <div>
@@ -88,7 +91,7 @@ export const MoreServices = () => {
 
 
 <section className="mt-5 text-center bg-primary  text-light">
-        <h3 className=" pt-5">Explorá algunos de nuestros trabajos recientes</h3>
+        <h3 className=" pt-5">Empresas que ya confían en nosotros</h3>
        
         <div className="d-flex justify-content-center mb-5 pt-5 ">
 
@@ -100,20 +103,38 @@ export const MoreServices = () => {
 </div>
 </div>
 
-        <div className=" container mb-5" >
-            <div className="mb-3">
-            <img src={vemox } className="cardTamanio rounded w-75"/>
-            </div>
-            <div className="mb-3">
-            <img src={aintechfoto } className="cardTamanio rounded w-75 "/>
-            </div>
-            <div className="mb-3">
-            <img src={goreboosting } className="cardTamanio rounded w-75 "/>
-            </div>
-            <div className="">
-            <img src={chaos } className="cardTamanio rounded w-75 "/>
-            </div>
-        </div>
+
+<div className="container mb-5">
+  <div className="d-flex flex-wrap justify-content-between gap-5 ">
+      <div>
+    <img src={vemox} className="logoCliente" alt="Vemox" />
+
+      </div>
+      <div>
+
+    <img src={odoo} className="logoCliente" alt="Odoo" />
+      </div>
+      <div>
+
+    <img src={chaos} className="logoCliente" alt="Chaos" />
+      </div>
+      <div>
+    <img src={zukalogo} className="logoCliente" alt="Zuka" />
+
+      </div>
+      <div>
+
+    <img src={aintechonline} className="logoCliente" alt="Aintech" />
+      </div>
+      <div>
+    <img src={goreboosting} className="logoCliente" alt="Gore Boosting" />
+      </div>
+      <div>
+    <img src={rappi} className="logoCliente" alt="Rappi" />
+      </div>
+  </div>
+</div>
+
         <div className="pb-5">
             
          
