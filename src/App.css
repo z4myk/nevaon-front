@@ -750,7 +750,7 @@ li{
 
 /* CSS */
 .logoCliente {
-  width: 250px;
+  width: 150px;
  
   filter: grayscale(100%);
   transition: all 0.3s ease;

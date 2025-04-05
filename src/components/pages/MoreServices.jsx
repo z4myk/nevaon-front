@@ -104,35 +104,31 @@ export const MoreServices = () => {
 </div>
 
 
-<div className="container mb-5">
-  <div className="d-flex flex-wrap justify-content-between gap-5 ">
-      <div>
-    <img src={vemox} className="logoCliente" alt="Vemox" />
+<div className="mb-5">
+  <marquee className="d-flex flex-wrap justify-content-between gap-5 text-center ">
+    
+    <img src={vemox} className="logoCliente mx-5" alt="Vemox" />
 
-      </div>
-      <div>
+  
+    
 
-    <img src={odoo} className="logoCliente" alt="Odoo" />
-      </div>
-      <div>
+    <img src={odoo} className="logoCliente mx-5" alt="Odoo" />
+ 
+  
 
-    <img src={chaos} className="logoCliente" alt="Chaos" />
-      </div>
-      <div>
-    <img src={zukalogo} className="logoCliente" alt="Zuka" />
+    <img src={chaos} className="logoCliente mx-5 " alt="Chaos" />
+     
+    <img src={zukalogo} className="logoCliente mx-5" alt="Zuka" />
 
-      </div>
-      <div>
 
-    <img src={aintechonline} className="logoCliente" alt="Aintech" />
-      </div>
-      <div>
-    <img src={goreboosting} className="logoCliente" alt="Gore Boosting" />
-      </div>
-      <div>
-    <img src={rappi} className="logoCliente" alt="Rappi" />
-      </div>
-  </div>
+
+    <img src={aintechonline} className="logoCliente mx-5 " alt="Aintech" />
+      
+    <img src={goreboosting} className="logoCliente mx-5 " alt="Gore Boosting" />
+     
+    <img src={rappi} className="logoCliente mx-5" alt="Rappi" />
+      
+  </marquee>
 </div>
 
         <div className="pb-5">
