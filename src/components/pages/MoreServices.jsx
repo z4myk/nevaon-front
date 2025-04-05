@@ -134,8 +134,8 @@ export const MoreServices = () => {
         <div className="pb-5">
             
          
-            <h3>¿Tenés una idea en mente o querés llevar tu negocio al próximo nivel?</h3>
-            <p><b>Nosotros te ayudamos a hacerlo realidad.</b></p>
+            <h3>¿Tiene una idea en mente o quiere llevar su negocio al próximo nivel?</h3>
+            <p><b>Nosotros le ayudamos a hacerlo realidad.</b></p>
             
     <a href="https://api.whatsapp.com/send/?phone=%2B5217831243833&text&type=phone_number&app_absent=0" target="_blank" className="text-decoration-none">
 <button className="shadow__btn border">
