@@ -5,6 +5,7 @@ import { HomePage } from '../components/home/HomePage'
 import {Navbar} from '../components/Navbar/Navbar'
 import { Error404 } from '../components/pages/Error404'
 import { LegalNotice } from '../components/pages/LegalNotice'
+import { MoreServices } from '../components/pages/MoreServices'
 import { Privacy } from '../components/pages/Privacy'
 import { PrivacyMain } from '../components/pages/PrivacyMain'
 import { TermsAndConditions } from '../components/pages/TermsAndConditions'
@@ -19,6 +20,7 @@ export const AppRouter = () => {
               <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/webhosting" element={<WebHosting />} />
+        <Route path="/more-services" element={<MoreServices />} />
         <Route path="/vps" element={<Vps />} />
         <Route path="/virtual-desktops" element={<VirtualDesktop />} />
         <Route path="/privacy" element={<Privacy />}/>
