@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import neveaonnegro from '../../assets/nevaonnegro.png'
+import neveaonnegro from '../../assets/nevaonblanco.png'
 import paypal from '../../assets/paypal.png'
 import mastercard from '../../assets/mastercard.png'
 import visa from '../../assets/visa.png'

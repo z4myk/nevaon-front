@@ -73,6 +73,9 @@ export const Navbar = () => {
           <a href="/vps" class="text-decoration-none text-dark"><i class="fi fi-tr-database"></i> Servidores</a>
         </li>
         <li class="list-group-item">
+            <a href="/software" class="text-decoration-none"><i class="fi fi-rs-display-code"></i> Desarrollo Web</a>
+          </li>
+        <li class="list-group-item">
           <a href="https://billing.nevaon.com/cart.php?a=add&domain=register" class="text-decoration-none text-dark"><i class="fi fi-rs-site-browser"></i> Dominios</a>
         </li>
         <li class="list-group-item">
@@ -92,11 +95,7 @@ export const Navbar = () => {
       
       <div>
        
-        <ul class="list-group list-group-flush  text-center">
-          <li class="list-group-item">
-            <a href="/software" class="text-decoration-none">Desarrollo Web</a>
-          </li>
-        </ul>
+     
       </div>
     </div>
   </div>
