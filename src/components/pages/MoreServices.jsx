@@ -87,10 +87,13 @@ export const MoreServices = () => {
             </div>
         </div>
     </div>
+
+
+   
     
 </section>
 <h2 className="text-center">Nuestros servicios</h2>
-        <section className="container text-center pb-5  " data-aos="fade-up"
+        <section className="container text-center pb-3  " data-aos="fade-up"
      data-aos-duration="3000">
   <div className="d-flex flex-wrap justify-content-center gap-4 my-5">
     <div className="p-3 border-primary shadow-sm card-hover-zoom  border rounded"   style={{ width: "250px" }}>
@@ -136,10 +139,28 @@ export const MoreServices = () => {
   </div>
 </section>
 
+<section className="bgVentajas pt-5 pb-5" data-aos="fade-up"
+     data-aos-duration="3000">
+      <h2 className="text-center mb-5">Ventajas competitivas</h2>
+      <div className="d-flex justify-content-center container boxMobile gap-5">
+        <div>
+          <h5>Soporte constante</h5>
+          <p className="p-1">Brindamos mantenimiento y soporte continuo post-lanzamiento para asegurar que tu software esté siempre actualizado, funcional y alineado a tus objetivos. Nuestro equipo está disponible para resolver problemas, aplicar mejoras técnicas y asegurar el éxito y estabilidad a largo plazo.</p>
+        </div>
+        <div>
+          <h5>Entrega rápida</h5>
+          <p className="p-1">Trabajamos con metodologías ágiles para garantizar entregas veloces y eficientes, sin comprometer la calidad del producto ni la experiencia del usuario final. Nuestro enfoque permite validar ideas rápidamente, acelerar procesos y reducir el tiempo de salida al mercado de forma segura.</p>
+        </div>
+        <div>
+          <h5>Código escalable</h5>
+          <p className="p-1">Desarrollamos con estructuras limpias, ordenadas y escalables, listas para crecer contigo y facilitar la evolución constante del software. Utilizamos un enfoque modular que permite mantener o modificar cualquier componente con mayor facilidad, reduciendo costos y tiempos de desarrollo futuro.</p>
+        </div>
+     
+      </div>
+    </section>
 
 
-
-<section className="mt-5 text-center  backgrServices text-light">
+<section className="text-center  backgrServices text-light">
         <h2 className=" pt-5">Empresas que ya confían en nosotros</h2>
        
         <div className="d-flex justify-content-center mb-5 pt-5 ">

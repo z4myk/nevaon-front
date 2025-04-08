@@ -598,6 +598,10 @@ li{
   .hide-on-mobile {
     display: none;
   }
+
+  .boxMobile{
+    flex-wrap: wrap;
+  }
 }
 
 /* Ocultar el botón en pantallas grandes */
@@ -605,8 +609,14 @@ li{
   .btn-ver-mas {
     display: none; /* Ocultar el botón en pantallas grandes */
   }
+  
+
 }
 
+
+.bgVentajas{
+  background-color: #F7F5F2;
+}
 
 
 .letrasLi{
