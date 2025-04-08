@@ -61,9 +61,9 @@ export const MoreServices = () => {
 </section>
 
 <section className=" p-5  text-dark  bg-luz">
-    <h2 className="mt-5 text-center tituloGrande">Brindamos servicios integrales para tu empresa</h2>
+    <h2 className="mt-1 text-center tituloGrande">Brindamos servicios integrales para tu empresa</h2>
       
-    <div className="row text-center mt-5">
+    <div className="row text-center mt-1">
         <div className="col-sm-12 col-md-6">
 
             <div className="w-100 mb-5 mt-5 border  p-3 shadow cajas text-light " data-aos="fade-right" >

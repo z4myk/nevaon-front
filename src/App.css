@@ -812,9 +812,21 @@ li{
 }
 
 .tituloGrande{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
+
+@media (max-width: 768px) {
+  .tituloGrande {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tituloGrande {
+    font-size: 1.7rem;
+  }
+}
 
 .backgrServices{
   background-color: #17181a;
