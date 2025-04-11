@@ -8,6 +8,14 @@ import gestion from '../../assets/gestion.png'
 import reserva from '../../assets/reserva.png'
 import cursos from '../../assets/cursos.png'
 import tienda from '../../assets/tienda.png'
+import tpv1 from '../../assets/tpv1.png'
+import inventario1 from '../../assets/inventario1.png'
+import landing1 from '../../assets/landing1.png'
+import crm1 from '../../assets/crm1.png'
+import gestion1 from '../../assets/gestion1.png'
+import reserva1 from '../../assets/reserva1.png'
+import cursos1 from '../../assets/cursos1.png'
+import tienda1 from '../../assets/tienda1.png'
 import aintechonline from '../../assets/aintechonline.png'
 import chaos from '../../assets/chaos.png'
 import vemox from '../../assets/vemox.png'
@@ -97,42 +105,42 @@ export const MoreServices = () => {
      data-aos-duration="3000">
   <div className="d-flex flex-wrap justify-content-center gap-4 my-5">
     <div className="p-3 border-primary shadow-sm card-hover-zoom  border rounded"   style={{ width: "250px" }}>
-      <img src={tpv} className="w-50 mb-3" alt="TPV" />
+      <img src={tpv1} className="w-50 mb-3" alt="TPV" />
       <h6 className="textoHeader"><b>TPV (Terminal Punto de Venta)</b></h6>
       <p className="small card-text-hover">Sistema de ventas con integración de pagos y gestión de productos.</p>
     </div>
     <div className="p-3 border rounded border-primary shadow-sm card-hover-zoom" style={{ width: "250px" }}>
-      <img src={inventario} className="w-50 mb-3" alt="Inventario" />
+      <img src={inventario1} className="w-50 mb-3" alt="Inventario" />
       <h6 className="textoHeader"><b>Sistemas de Inventario</b></h6>
       <p className="small card-text-hover">Control y administración de stock, alertas de bajo inventario, reportes de movimientos.</p>
     </div>
     <div className="p-3 border rounded border-primary shadow-sm card-hover-zoom" style={{ width: "250px" }}>
-      <img src={landing} className="w-50 mb-3" alt="Landing Page" />
+      <img src={landing1} className="w-50 mb-3" alt="Landing Page" />
       <h6 className="textoHeader"><b>Landing Pages</b></h6>
       <p className="small card-text-hover">Diseño web optimizado para conversión con formularios y análisis de datos.</p>
     </div>
     <div className="p-3 border rounded border-primary shadow-sm card-hover-zoom" style={{ width: "250px" }}>
-      <img src={crm} className="w-50 mb-3" alt="CRM" />
+      <img src={crm1} className="w-50 mb-3" alt="CRM" />
       <h6 className="textoHeader"><b>CRM (Customer Relationship Management)</b></h6>
       <p className="small card-text-hover">Gestión de clientes, seguimiento de interacciones y automatización de procesos.</p>
     </div>
     <div className="p-3 border rounded border-primary shadow-sm card-hover-zoom" style={{ width: "250px" }}>
-      <img src={gestion} className="w-50 mb-3" alt="Gestión" />
+      <img src={gestion1} className="w-50 mb-3" alt="Gestión" />
       <h6 className="textoHeader"><b>Sistemas de Gestión</b></h6>
       <p className="small card-text-hover">Soluciones personalizadas para la administración interna de empresas.</p>
     </div>
     <div className="p-3 border rounded border-primary shadow-sm card-hover-zoom" style={{ width: "250px" }}>
-      <img src={reserva} className="w-50 mb-3" alt="Reserva" />
+      <img src={reserva1} className="w-50 mb-3" alt="Reserva" />
       <h6 className="textoHeader"><b>Sistemas de Reserva</b></h6>
       <p className="small card-text-hover ">Plataformas para agendamiento de citas, reservas y pagos en línea.</p>
     </div>
     <div className="p-3 border rounded border-primary shadow-sm card-hover-zoom" style={{ width: "250px" }}>
-      <img src={cursos} className="w-50 mb-3" alt="Cursos" />
+      <img src={cursos1} className="w-50 mb-3" alt="Cursos" />
       <h6 className="textoHeader"><b>Plataforma de Cursos</b></h6>
       <p className="small card-text-hover">LMS (Learning Management System) con videos, pruebas y certificados.</p>
     </div>
     <div className="p-3 border rounded border-primary shadow-sm card-hover-zoom" style={{ width: "250px" }}>
-      <img src={tienda} className="w-50 mb-3" alt="E-commerce" />
+      <img src={tienda1} className="w-50 mb-3" alt="E-commerce" />
       <h6 className="textoHeader"><b>E-commerce</b></h6>
       <p className="small card-text-hover">Tienda en línea con catálogo de productos, carrito de compras y pagos en línea.</p>
     </div>
